@@ -15,7 +15,7 @@ genBtn.addEventListener('click', ()=>{
     passBox.value = generatePassword();
 })
 
-// rangebtn ka logic
+// rangebtn logic
 range.addEventListener('change', ()=>{
     rangevalue.innerHTML = range.value;
 })
@@ -39,7 +39,7 @@ symbols.addEventListener('input', ()=>{
 })
 
 
-//copyBtn ka logic
+//copyBtn logic
 
 copybtn.addEventListener('click', ()=>{
     navigator.clipboard.writeText(passBox.value)
@@ -64,5 +64,6 @@ function generatePassword(){
     }
     return str
 }
+
 
 
